@@ -11,9 +11,9 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + summ + " рублей.");
         System.out.println("Задание 2");
         // Задание 2
-        int z[] = new int[]{10, 20, 30, 40, 45};
-        int max = 0;
-        int min = 50;
+        int z[] = new int[]{10, 20, 25, 40, 45};
+        int max = 10;
+        int min = 10;
         for (int e : z) {
             if (e > max) {
                 max = e;
@@ -33,16 +33,14 @@ public class Main {
         int sred = 0;
         for (int el : zarPlata) {
             sum = sum + el;
-            sred = sum / zarPlata.length;
         }
+        sred = sum / zarPlata.length;
         System.out.println("Средняя сумма трат за месяц составила " + sred + " рублей");
         //  Задание 4
         System.out.println("Задание 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
-
-
         }
     }
 }
