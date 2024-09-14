@@ -12,8 +12,8 @@ public class Main {
         System.out.println("Задание 2");
         // Задание 2
         int z[] = new int[]{10, 20, 25, 40, 45};
-        int max = 10;
-        int min = 10;
+        int max = z[0];
+        int min = z[0];
         for (int e : z) {
             if (e > max) {
                 max = e;
